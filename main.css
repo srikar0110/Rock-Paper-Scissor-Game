@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P';
+}
+
+
+h1{
+    background-image: url('Assets/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #081b31;
+    border-radius: 5px solid black;
+    color: white;
+    height: 5rem;
+    line-height:5rem;
+    text-align: center;
+    text-shadow: 1px 1px #000000; 
+    font-size: 1.5rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 4px 4px 10px #000000, -4px -4px 10px #2c2c54; 
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    align-items: center;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,#comp-score{
+    font-size: 3rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    background-color: #081b31;
+    font-size: 1rem;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
